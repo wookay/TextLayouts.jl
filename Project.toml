@@ -1,0 +1,13 @@
+name = "TextLayouts"
+uuid = "0132cb58-9c17-11e9-1392-b32ae9263cb9"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+JSON2 = "2535ab7d-5cd8-5a07-80ac-9b1792aadce3"
+
+[targets]
+test = ["Test", "Jive", "UnicodePlots", "JSON2"]
